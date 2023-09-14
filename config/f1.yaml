@@ -1,0 +1,15 @@
+torque_curve:  # [RPM, torque (Nm)]
+  [
+    [0, 200],
+    [6000, 250],
+    [7000, 370],
+    [8200, 400],
+    [9700, 425],
+    [11300, 400],
+    [13000, 370]
+  ]
+max_rpm: 13000  # max RPM of vehicle's engine
+moi: 600  # moment of inertia [kg*m^2]
+mass: 600  # mass of vehicle [kg]
+drag_coefficient: 0.85
+center_of_mass: [0.0, 0.0, 0.0]

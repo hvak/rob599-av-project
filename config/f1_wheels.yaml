@@ -1,0 +1,16 @@
+tire_friction: 1.7
+damping_rate: 0.7
+max_steer_angle: 450  # [degrees]
+radius: 36  # [cm]
+max_brake_torque: 3600  # [Nm]
+long_stiff_value: 720000  # tire longitudinal stiffness per unit gravitational acceleration [kg/rad]
+lat_stiff_max_load:
+lat_stiff_value:
+
+positions:  # positions of tires [x y z]
+  [
+    [0.0, 0.0, 0.0],
+    [0.0, 0.0, 0.0],
+    [0.0, 0.0, 0.0],
+    [0.0, 0.0, 0.0]
+  ]
