@@ -4,7 +4,7 @@ services:
   carla:
     image: carlasim/carla:0.9.14
     command: ["bash", "./CarlaUE4.sh", "-vulkan"]
-    runtime: nvidia
+    runtime: ""
     # ports:
     #  - "2000-2002:2000-2002"
     environment:
